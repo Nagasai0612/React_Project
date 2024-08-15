@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "f_name": "Ajay",
+        "l_name": "Kumar",
+        "Age": 22
+    },
+    {
+        "id": 2,
+        "f_name": "Vjay",
+        "l_name": "Pratap",
+        "Age": 23
+    },
+    {
+        "id": 3,
+        "f_name": "Keerthana",
+        "l_name": "Shetty",
+        "Age": 24
+    },
+    {
+        "id": 4,
+        "f_name": "Rudra",
+        "l_name": "Veena",
+        "Age": 25
+    },
+    {
+        "id": 5,
+        "f_name": "Karan",
+        "l_name": "Rao",
+        "Age": 25
+    },
+    {
+        "id": 6,
+        "f_name": "Praveen",
+        "l_name": "Reddy",
+        "Age": 25
+    }
+]

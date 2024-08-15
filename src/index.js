@@ -1,17 +1,55 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import App from './App.js'
+const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+  <>
+  
+  <App/>
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  </>
+)
+
+/**App.js 
+import React, { Suspense } from "react";
+//import About from './About'
+const About = React.lazy(()=>import('./About'))
+const App=()=>{
+  return (
+    <>
+    <h1>Hello, World!</h1>
+    <Suspense fallback={<div>please wait....</div>}>
+    <About/>
+    </Suspense>
+    
+    </>
+    );
+}
+
+export default App*/
+
+/*About.js
+import React from "react";
+
+export default function About(){    
+    return (
+        <>
+        <h1>About</h1>
+       <h1>About</h1>
+       <h1>About</h1>
+       <h1>About</h1>
+       <h1>About</h1>
+       <h1>About</h1>
+       <h1>About</h1>
+       <h1>About</h1>
+       <h1>About</h1>
+       <h1>About</h1>
+       <h1>About</h1>
+       <h1>About</h1>
+       <h1>About</h1>
+       <h1>About</h1>
+       <h1>About</h1>
+       <h1>About</h1>
+        </>
+        );
+} */
